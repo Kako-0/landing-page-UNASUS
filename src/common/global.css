@@ -3,7 +3,8 @@
     --blueOpacity: rgba(68, 65, 223, 0.77);
     --red: #F51051;
     --bgBlueLight: #E7F6FC;
-    --bgLight: #E5E5E5
+    --bgLight: #E5E5E5;
+    --bgDark: #DADADA;
 }
 
 * {
