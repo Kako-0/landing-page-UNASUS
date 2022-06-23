@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
-
+    width: 100%;
     background-color: var(--bgLight);
 }
 .logo{
@@ -12,6 +12,7 @@
     justify-self: center;
     padding: .5rem;
     cursor: pointer;
+    height: 100%;
 }
 
 .headerMenu {
@@ -32,4 +33,15 @@
     color: #fff;
     background-color: var(--blue);
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 414px) {
+    .logo > img:last-child{
+        display: none;
+    }   
+
+    .headerMenu {
+        display: none;
+    }
 }
