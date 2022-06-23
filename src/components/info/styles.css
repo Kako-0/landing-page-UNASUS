@@ -1,0 +1,104 @@
+.InfoContainer{
+    background: url(../../common/assets/FOTOGRAFIA-PCD-MULHERES-02-1.png) left no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 75vh var(--blueOpacity);
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem;
+    height: 75vh;
+    width: 100%;
+
+    color: #fff;
+}
+
+.InfoDescribe{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 45%;
+    padding-left: 10rem;
+}
+
+.InfoContainer > h1{
+    font-size: 5em;
+    height: 100%;
+    text-align: center;
+    padding: 7rem 0;
+    margin-right: 10rem;
+}
+.InfoDescribe > p{
+    font-size: 2em;
+}
+
+.InfoDescribe > button{
+    border: 1px #000 solid;
+    cursor: pointer;
+    background-color: var(--red);
+    color: #fff;
+    font-size: 1.2em;
+    height: 2.5rem;
+    width: 90%;
+    margin: 2rem 0;
+    border-radius: 5px;
+}
+.cardsSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 5px var(--bgDark) solid;
+}
+
+.cardInfo:nth-child(2){
+    background-color: var(--bgBlueLight);
+}
+
+.cardInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+    margin: 0.5rem;
+}
+
+@media only screen and (max-width: 430px) {
+    .InfoContainer{
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 0;
+    }
+    .InfoContainer > h1{
+        height: auto;
+        margin-right: 0;
+        padding: 0;
+        font-size: 4em;
+    }
+
+    .InfoDescribe{
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .InfoDescribe > p {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .cardsSection{
+        flex-direction: column;
+    }
+
+    .cardInfo{
+        justify-content: flex-start;
+    }
+}
