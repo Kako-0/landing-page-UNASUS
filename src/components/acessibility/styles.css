@@ -1,0 +1,36 @@
+.accessibilityContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: .5rem 10rem;
+    background-color: var(--bgDark);
+}
+
+.accessibilityContainer > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    height: 100%;
+}
+
+.accessibilityContainer > li:hover, 
+.accessibility-socialMedia img:hover{
+    cursor: pointer;
+    padding: 0 1rem;
+    border: var(--blue) 2px solid;
+    border-radius: 25px;
+}
+
+.accessibility-socialMedia:hover{
+    border: none !important;
+}
+
+
+.accessibilityContainer > li > img{
+    margin-right: 0.5rem;
+}
+
+.accessibility-socialMedia{
+    padding: 0 1rem;
+}
