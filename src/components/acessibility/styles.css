@@ -34,3 +34,12 @@
 .accessibility-socialMedia{
     padding: 0 1rem;
 }
+
+@media only screen and (max-width: 414px){
+    .accessibilityContainer{
+        padding: .5rem;
+    }
+    .accessibilityContainer p{
+        display: none;
+    }
+}
