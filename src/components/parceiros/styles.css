@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 80vh;
+    height: 100vh;
 }
 
 .parceirosUp{
-    height: 80%;
+    height: 50%;
     width: 100%;
     padding: 4rem 6rem;
     padding-bottom: 0;
@@ -32,7 +32,7 @@
     width: 4rem;
 }
 .parceirosDown{
-    height: 70vh;
+    height: 100%;
     width: 100%;
 }
 
