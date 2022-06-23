@@ -1,0 +1,35 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+
+    background-color: var(--bgLight);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.headerMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 10rem;
+}
+
+.headerMenu li{
+    height: 6rem;
+    padding: 2rem 1.7rem;
+    list-style: none;
+}
+
+.headerMenu li:hover{
+    color: #fff;
+    background-color: var(--blue);
+    cursor: pointer;
+}
