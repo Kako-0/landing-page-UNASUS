@@ -1,0 +1,36 @@
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6rem;
+    width: 100%;
+    background-color: var(--bgBlueLight);
+}
+.footerMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footerMenu li{
+    height: 4rem;
+    padding: 1.5rem 1.7rem;
+    list-style: none;
+}
+
+.footerMenu li:hover{
+    color: #fff;
+    background-color: var(--blue);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 430px) {
+    .footerContainer {
+        padding: 0 1rem;
+    }
+    .footerMenu li{
+        font-size: 0.8em;
+        padding: 1.5rem 0.2rem;    
+    }
+}
